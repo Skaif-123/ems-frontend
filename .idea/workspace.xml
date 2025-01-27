@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="113a6cb6-4c66-4e13-9240-a9ccbd555886" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/EmployeeComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/EmployeeComponent.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/components/ListEmployeeComponent.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/ListEmployeeComponent.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/services/EmployeeService.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/services/EmployeeService.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +76,7 @@
       <workItem from="1736441197945" duration="61000" />
       <workItem from="1737865670498" duration="274000" />
       <workItem from="1737874322490" duration="1770000" />
-      <workItem from="1737944136529" duration="748000" />
+      <workItem from="1737944136529" duration="10006000" />
     </task>
     <servers />
   </component>
