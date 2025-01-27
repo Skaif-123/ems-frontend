@@ -1,20 +1,33 @@
-import React,{useEffect, useState} from 'react'
-import { listEmployees } from '../services/EmployeeService'
+import React, { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
+import { listEmployees } from "../services/EmployeeService";
 
 const ListEmployeeComponent = () => {
-  const[employees,setEmployees]=useState([])
+  const [employees, setEmployees] = useState([]);
+  const navigator = useNavigate();
 
-  useEffect(()=>{
-    listEmployees().then((response)=>{
-      setEmployees(response.data);
-    }).catch(error=>{
-      console.error(error);
-    })
-  },[])
+  useEffect(() => {
+    listEmployees()
+      .then((response) => {
+        setEmployees(response.data);
+      })
+      .catch((error) => {
+        console.error(error);
+      });
+  }, []);
+
+  function addNewEmployee() {
+    navigator('./add-employee')
+  }
 
   return (
     <div className="container">
-      <h1 className="text-center">Employee List</h1>
+      <h1 className="text-center" onClick={addNewEmployee}>
+        Employee List
+      </h1>
+      <button type="button" class="btn btn-primary">
+        Add Employee
+      </button>
       <table className="table table-bordered">
         <thead>
           <tr>
@@ -36,7 +49,7 @@ const ListEmployeeComponent = () => {
         </tbody>
       </table>
     </div>
-  )
-}
+  );
+};
 
-export default ListEmployeeComponent
+export default ListEmployeeComponent;
